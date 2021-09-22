@@ -1,3 +1,4 @@
+
 // An object literal
 var car = {
     name: 'Chevrolet',
@@ -9,9 +10,15 @@ var car = {
     mileage:  '10 miles',
 
 }
-car["shape"] = "plane"
+car.name = 'toyota'
+car.model = 'corola S'
+car.year = '2022'
+car.color = 'white'
+car.ownerName = 'uche'
+car.ownerNumber = '08156782834'
+car.mileage = '5 miles'
 console.log(car);
-// mutating a value in an object
+// mutating(changing) a value in an object
 // car.name = "Chevrolet"   
 
 // adding a newkey value in an object
@@ -22,29 +29,6 @@ console.log(car);
 
 
 
-
-
-console.log("")
-
-
-
-// An object using a newKeyword
-
-var car = new Object();
-
-
-car.name = 'Chevrolet';
-car.model = 'Camaro ZL1';
-car.year = 2021;
-car.color ='white & black';
-car.ownerName = 'BossMicah';
-car.ownerNumber = '08169371046';
-car.mileage =  '10 miles';
-
-console.log(car.color)
-console.log(car.year)
-console.log(car.model)
-console.log(car.name)
 
 
 
