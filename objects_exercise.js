@@ -16,7 +16,7 @@ car.year = '2016'
 car['currentyear'] = '2021'
 car.color = 'white'
 car.ownerName = 'uche'
-car.ownerNumber = '08156782834'
+car.ownerNumber = '08156782836'
 car.mileage = 5,
 console.log(car);
 // mutating(changing) a value in an object
