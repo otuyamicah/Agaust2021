@@ -10,15 +10,15 @@ var car = {
     mileage:  '10 miles',
 
 }
-car.name = 'toyota'
+car['name']= 'toyota'
 car.model = 'corola S'
 car.year = '2022'
 car.color = 'white'
 car.ownerName = 'uche'
 car.ownerNumber = '08156782834'
 car.mileage = '5 miles'
-car.currentyear = 2027
-car mileage = 10
+car.currentyear = 2027,
+car.mileage = 10,
 console.log(car);
 // mutating(changing) a value in an object
 // car.name = "Chevrolet"   
